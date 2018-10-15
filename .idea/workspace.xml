@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c016cd0-419b-4a09-a010-30aeefee0f07" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="oxarticle.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/oxarticle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="951">
+              <caret line="2689" column="5" lean-forward="false" selection-start-line="2689" selection-start-column="5" selection-end-line="2689" selection-end-column="5" />
+              <folding>
+                <marker date="1533198796000" expanded="true" signature="29219:29398" ph="update oxart... " />
+                <marker date="1533198796000" expanded="true" signature="36000:36213" ph="select ${{$s... " />
+                <marker date="1533198796000" expanded="true" signature="40176:40389" ph="select ${{$s... " />
+                <marker date="1533198796000" expanded="true" signature="44081:44171" ph="select * fro... ${$oBaseObj-&gt;getViewName()}" />
+                <marker date="1533198796000" expanded="true" signature="54166:54424" ph="select 1 fro... ${$sO2CView}" />
+                <marker date="1533198796000" expanded="true" signature="59644:59734" ph="select oxsto... oxarticles" />
+                <marker date="1533198796000" expanded="true" signature="60055:60174" ph="update oxart... " />
+                <marker date="1533198796000" expanded="true" signature="60957:61064" ph="update oxart... " />
+                <marker date="1533198796000" expanded="true" signature="61657:61733" ph="update oxart... " />
+                <marker date="1533198796000" expanded="true" signature="67013:67060" ph="select oxpar... oxarticles" />
+                <marker date="1533198796000" expanded="true" signature="68882:68939" ph="select oxsto... oxarticles" />
+                <marker date="1533198796000" expanded="true" signature="71340:71389" ph="select oxlon... $" />
+                <marker date="1533198796000" expanded="true" signature="79060:79130" ph="select * fro... $" />
+                <marker date="1533198796000" expanded="true" signature="90320:90481" ph="update oxart... " />
+                <marker date="1533198796000" expanded="true" signature="92004:92080" ph="select ${$sF... ${$this-&gt;_getObjectViewName('oxcategories')}" />
+                <marker date="1533198796000" expanded="true" signature="92932:93341" ph="select 1 fro... ${$this-&gt;_getObjectViewName('oxcategories')}" />
+                <marker date="1533198796000" expanded="true" signature="95997:96063" ph="SELECT * FRO... oxfiles" />
+                <marker date="1533198796000" expanded="true" signature="96999:97038" ph="SELECT 1 FRO... oxprice2article" />
+                <marker date="1533198796000" expanded="true" signature="102599:103014" ph="select oxobj... ${$sO2CView}" />
+                <marker date="1533198796000" expanded="true" signature="104145:104312" ph="select oxobj... ${$sO2CView}" />
+                <marker date="1533198796000" expanded="true" signature="106662:106716" ph="select 1 fro... ${$sArticleTable}" />
+                <marker date="1533198796000" expanded="true" signature="115170:115319" ph="select oxid ${$this-&gt;getViewName(true)}" />
+                <marker date="1533198796000" expanded="true" signature="117695:117771" ph="select oxatt... oxobject2attribute" />
+                <marker date="1533198796000" expanded="true" signature="119210:119495" ph="select oxobj... oxobject2attribute" />
+                <marker date="1533198796000" expanded="true" signature="120023:120168" ph="select ${$sF... ${$sArticleTable}" />
+                <marker date="1533198796000" expanded="true" signature="120970:121254" ph="select ${{$s... " />
+                <marker date="1533198796000" expanded="true" signature="121299:121524" ph="select ${{$s... " />
+                <marker date="1533198796000" expanded="true" signature="122366:122470" ph="select oxid $" />
+                <marker date="1533198796000" expanded="true" signature="122930:123499" ph="select disti... " />
+                <marker date="1533198796000" expanded="true" signature="124798:124867" ph="select oxobj... ${$sO2CView}" />
+                <marker date="1533198796000" expanded="true" signature="125288:125354" ph="select oxcat... ${$sCategoryView}" />
+                <marker date="1533198796000" expanded="true" signature="136145:136226" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="136298:136348" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="136420:136469" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="136541:136592" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="136664:136708" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="136780:136844" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="136916:136957" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="137035:137120" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="137252:137341" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="137399:137437" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="137621:137655" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="137698:137744" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="137822:137867" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="138233:138298" ph="select oxid ${$this-&gt;getViewName()}" />
+                <marker date="1533198796000" expanded="true" signature="140666:140740" ph="select oxsto... oxarticles" />
+                <marker date="1533198796000" expanded="true" signature="140962:141124" ph="select sum(o... ${$this-&gt;getViewName(true)}" />
+                <marker date="1533198796000" expanded="true" signature="141211:141275" ph="update oxart... " />
+                <marker date="1533198796000" expanded="true" signature="142992:143055" ph="select count... oxarticles" />
+                <marker date="1533198796000" expanded="true" signature="143160:143221" ph="update oxart... " />
+                <marker date="1533198796000" expanded="true" signature="143632:144230" ph="SELECT MIN( ${$this-&gt;getViewName(true)}" />
+                <marker date="1533198796000" expanded="true" signature="144479:144757" ph="UPDATE `oxar... " />
+                <marker date="1533198796000" expanded="true" signature="144851:145059" ph="UPDATE `oxar... " />
+                <marker date="1533198796000" expanded="true" signature="155902:155925" ph="UPDATE `oxar... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oxlistobject.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/oxlistobject.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oxcategory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/oxcategory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12767">
+              <caret line="887" column="5" lean-forward="false" selection-start-line="887" selection-start-column="5" selection-end-line="887" selection-end-column="5" />
+              <folding>
+                <marker date="1533198796000" expanded="true" signature="7324:7530" ph="UPDATE oxcat... " />
+                <marker date="1533198796000" expanded="true" signature="7645:7854" ph="UPDATE oxcat... " />
+                <marker date="1533198796000" expanded="true" signature="8115:8178" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="8281:8352" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="8462:8527" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="8598:8663" ph="delete from " />
+                <marker date="1533198796000" expanded="true" signature="21424:21494" ph="select oxroo... ${getViewName('oxcategories')}" />
+                <marker date="1533198796000" expanded="true" signature="22555:22862" ph="UPDATE oxcat... " />
+                <marker date="1533198796000" expanded="true" signature="22982:23193" ph="UPDATE oxcat... " />
+                <marker date="1533198796000" expanded="true" signature="24445:24494" ph="select oxpar... oxcategories" />
+                <marker date="1533198796000" expanded="true" signature="25804:25851" ph="select oxroo... oxcategories" />
+                <marker date="1533198796000" expanded="true" signature="26202:26247" ph="select oxlef... oxcategories" />
+                <marker date="1533198796000" expanded="true" signature="26908:26993" ph="UPDATE oxcat... " />
+                <marker date="1533198796000" expanded="true" signature="27879:27958" ph="UPDATE oxcat... " />
+                <marker date="1533198796000" expanded="true" signature="28014:28096" ph="UPDATE oxcat... " />
+                <marker date="1533198796000" expanded="true" signature="28549:28726" ph="UPDATE oxcat... " />
+                <marker date="1533198796000" expanded="true" signature="28925:29006" ph="UPDATE oxcat... " />
+                <marker date="1533198796000" expanded="true" signature="29073:29157" ph="UPDATE oxcat... " />
+                <marker date="1533198796000" expanded="true" signature="34454:34537" ph="SELECT ${$sF... ${{$sTable}}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rvpcategory_main.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/blocks/rvpcategory_main.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lang.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/translations/en/lang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4845">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cust_lang.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/en/cust_lang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="help_lang.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/en/help_lang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lang.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/en/lang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="399" column="27" lean-forward="false" selection-start-line="399" selection-start-column="1" selection-end-line="399" selection-end-column="27" />
+              <folding>
+                <marker date="1533198796000" expanded="true" signature="85540:85548" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category_main.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/category_main.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="604">
+              <caret line="286" column="9" lean-forward="false" selection-start-line="286" selection-start-column="9" selection-end-line="286" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_extend.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/article_extend.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="291" column="4" lean-forward="false" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="92" />
+              <folding>
+                <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#form#1;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Categor</find>
+      <find>media</find>
+      <find>mediaUrl</find>
+      <find>upload</find>
+      <find>image</find>
+      <find>url</find>
+      <find>fieldset</find>
+      <find>$soxId</find>
+      <find>save</find>
+      <find>update</find>
+      <find>_insert</find>
+      <find>$blRes</find>
+      <find>getmedia</find>
+      <find>fiel</find>
+      <find>article</find>
+      <find>ARTICLE_EXTEND_DESCRIPTION</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/modules/categoryAttachment/extendCategoryAttachment.php" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/blocks/rvpcategory_attachemnt.tpl" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/metadata.php" />
+        <option value="$PROJECT_DIR$/config.inc.php" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/blocks/rvpcategory_main.tpl" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1696" />
+    <option name="height" value="1026" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rvp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rvp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categoryattachment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rexhin Vorpsi\Desktop\trialTask\modules\rvp\categoryattachment" />
+      <recent name="C:\Users\Rexhin Vorpsi\Desktop\trialTask\modules\rvp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangApplicationRunConfiguration" factoryName="Erlang Application" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="erlFlags" value="" />
+      <option name="moduleAndFunction" value="" />
+      <option name="params" value="" />
+      <option name="useTestCodePath" value="false" />
+      <option name="workDirectory" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="ErlangUnitRunConfigurationType" factoryName="Erlang Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="debugOptions">
+        <ErlangDebugOptions>
+          <option name="autoUpdateModulesNotToInterpret" value="true" />
+          <option name="modulesNotToInterpret">
+            <set />
+          </option>
+        </ErlangDebugOptions>
+      </option>
+      <option name="workDirectory" />
+      <module />
+      <option name="functionNames">
+        <set />
+      </option>
+      <option name="kind" value="MODULE" />
+      <option name="moduleNames">
+        <set />
+      </option>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="RebarEunitRunConfigurationType" factoryName="Erlang Rebar Eunit" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="command" value="eunit" />
+      <option name="skipDependencies" value="true" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c016cd0-419b-4a09-a010-30aeefee0f07" name="Default" comment="" />
+      <created>1539536656994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539536656994</updated>
+      <workItem from="1539536659808" duration="5671000" />
+      <workItem from="1539551276780" duration="17707000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23378000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25244498" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/models/oxcontent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533198796000" expanded="true" signature="7717:7766" ph="select oxpar... oxcategories" />
+            <marker date="1533198796000" expanded="true" signature="10489:10566" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/metadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533200095000" expanded="true" signature="1155:1195" ph="..." />
+            <marker date="1533200095000" expanded="false" signature="1320:1360" ph="..." />
+            <marker date="1533200095000" expanded="false" signature="1471:1477" ph="ä" />
+            <marker date="1533200095000" expanded="true" signature="1584:1624" ph="..." />
+            <marker date="1533200095000" expanded="false" signature="1749:1789" ph="..." />
+            <marker date="1533200095000" expanded="false" signature="1900:1906" ph="ä" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/bestit/amazonpay4oxid/application/models/bestitamazonpay4oxidcontainer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2601">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/bestit/amazonpay4oxid/application/controllers/bestitamazoncron.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533200095000" expanded="true" signature="2757:2955" ph="SELECT OXID,... oxorder" />
+            <marker date="1533200095000" expanded="true" signature="3649:3848" ph="SELECT OXID,... oxorder" />
+            <marker date="1533200095000" expanded="true" signature="4543:4739" ph="SELECT OXID,... oxorder" />
+            <marker date="1533200095000" expanded="true" signature="5741:5896" ph="SELECT OXID,... oxorder" />
+            <marker date="1533200095000" expanded="true" signature="6469:6614" ph="SELECT BESTI... bestitamazonrefunds" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/bestit/amazonpay4oxid/application/models/bestitamazonpay4oxid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533200095000" expanded="true" signature="2440:2522" ph="SELECT OXACT... $" />
+            <marker date="1533200095000" expanded="true" signature="2889:3141" ph="SELECT OXOBJ... $" />
+            <marker date="1533200095000" expanded="true" signature="3444:3579" ph="SELECT OXID $" />
+            <marker date="1533200095000" expanded="true" signature="5570:5733" ph="SELECT oxid,... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/controllers/admin/oxpspaymorrowadminerrorlog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/controllers/admin/oxpspaymorrowpaymentmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/controllers/oxpspaymorroworder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="68" column="40" lean-forward="false" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rvp/extendCategoryAttachment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oxps/vendormetadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/core/oxpsoxid2paymorrow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/core/oxpspaymorrowsettings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/controllers/admin/invoicepdforder_overview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/models/invoicepdfarticlesummary.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/views/admin/blocks/order_overview.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/views/admin/de/invoicepdf_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/views/admin/en/invoicepdf_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/models/invoicepdfblock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1266">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/interface/oxiarticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/oxarticlelist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533198796000" expanded="true" signature="6573:6587" ph="select * fro... ${$sArticleTable}" />
+            <marker date="1533198796000" expanded="true" signature="7901:7915" ph="select * fro... ${$sArticleTable}" />
+            <marker date="1533198796000" expanded="true" signature="9181:9750" ph="select ${$sA... oxactions2article" />
+            <marker date="1533198796000" expanded="true" signature="10345:10491" ph="SELECT ${$sA... ${$sArticleTable}" />
+            <marker date="1533198796000" expanded="true" signature="12314:12443" ph="select ${$sA... oxaccessoire2article" />
+            <marker date="1533198796000" expanded="true" signature="16425:16493" ph="select disti... oxobject2list" />
+            <marker date="1533198796000" expanded="true" signature="18214:18305" ph="select ${$sA... ${$sArticleTable}" />
+            <marker date="1533198796000" expanded="true" signature="18495:18574" ph="select ${$sA... ${$sO2CView}" />
+            <marker date="1533198796000" expanded="true" signature="22968:23271" ph="select ${{$s... " />
+            <marker date="1533198796000" expanded="true" signature="24511:24869" ph="select ${{$s... " />
+            <marker date="1533198796000" expanded="true" signature="25904:25932" ph="select ${$sA... ${$sArticleTable}" />
+            <marker date="1533198796000" expanded="true" signature="26846:26889" ph="SELECT ${$sA... oxorderarticles" />
+            <marker date="1533198796000" expanded="true" signature="28342:28518" ph="select ${{$s... " />
+            <marker date="1533198796000" expanded="true" signature="28662:28847" ph="update ${{$s... " />
+            <marker date="1533198796000" expanded="true" signature="29152:29261" ph="select unix_... " />
+            <marker date="1533198796000" expanded="true" signature="30530:30658" ph="SELECT `oxid... oxarticles" />
+            <marker date="1533198796000" expanded="true" signature="33791:33847" ph="select oc.ox... " />
+            <marker date="1533198796000" expanded="true" signature="36320:36705" ph="SELECT ${$sF... ${$sO2CView}" />
+            <marker date="1533198796000" expanded="true" signature="37566:37869" ph="SELECT COUNT... ${$sO2CView}" />
+            <marker date="1533198796000" expanded="true" signature="40758:40828" ph="select ${{$s... " />
+            <marker date="1533198796000" expanded="true" signature="41777:41802" ph="select ${$sF... ${$sArticleTable}" />
+            <marker date="1533198796000" expanded="true" signature="42572:42597" ph="select ${$sF... ${$sArticleTable}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article_accessories_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533198796000" expanded="true" signature="4185:4249" ph="select oxacc... oxaccessoire2article" />
+            <marker date="1533198796000" expanded="true" signature="5251:5339" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article_extend_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="51" column="6" lean-forward="true" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+          <folding>
+            <marker date="1533198796000" expanded="true" signature="2840:2984" ph="select ${$sC... ${$sO2CView}" />
+            <marker date="1533198796000" expanded="true" signature="5123:5247" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="6592:6768" ph="select 1 fro... ${$sO2CView}" />
+            <marker date="1533198796000" expanded="true" signature="7744:8076" ph="update oxobj... " />
+            <marker date="1533198796000" expanded="true" signature="8611:8695" ph="update oxobj... " />
+            <marker date="1533198796000" expanded="true" signature="8828:8953" ph="update oxobj... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/category_list.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/category_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/oepaypal/metadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/oethemeswitcher/metadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/content_main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/article_main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="54" lean-forward="true" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rvp/vendormetadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/metadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+          <folding>
+            <element signature="e#6#879#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/vhost.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/oxmediaurl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="105" column="53" lean-forward="false" selection-start-line="105" selection-start-column="53" selection-end-line="105" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/alist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article_extend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/oxcategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12767">
+          <caret line="887" column="5" lean-forward="false" selection-start-line="887" selection-start-column="5" selection-end-line="887" selection-end-column="5" />
+          <folding>
+            <marker date="1533198796000" expanded="true" signature="7324:7530" ph="UPDATE oxcat... " />
+            <marker date="1533198796000" expanded="true" signature="7645:7854" ph="UPDATE oxcat... " />
+            <marker date="1533198796000" expanded="true" signature="8115:8178" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="8281:8352" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="8462:8527" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="8598:8663" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="21424:21494" ph="select oxroo... ${getViewName('oxcategories')}" />
+            <marker date="1533198796000" expanded="true" signature="22555:22862" ph="UPDATE oxcat... " />
+            <marker date="1533198796000" expanded="true" signature="22982:23193" ph="UPDATE oxcat... " />
+            <marker date="1533198796000" expanded="true" signature="24445:24494" ph="select oxpar... oxcategories" />
+            <marker date="1533198796000" expanded="true" signature="25804:25851" ph="select oxroo... oxcategories" />
+            <marker date="1533198796000" expanded="true" signature="26202:26247" ph="select oxlef... oxcategories" />
+            <marker date="1533198796000" expanded="true" signature="26908:26993" ph="UPDATE oxcat... " />
+            <marker date="1533198796000" expanded="true" signature="27879:27958" ph="UPDATE oxcat... " />
+            <marker date="1533198796000" expanded="true" signature="28014:28096" ph="UPDATE oxcat... " />
+            <marker date="1533198796000" expanded="true" signature="28549:28726" ph="UPDATE oxcat... " />
+            <marker date="1533198796000" expanded="true" signature="28925:29006" ph="UPDATE oxcat... " />
+            <marker date="1533198796000" expanded="true" signature="29073:29157" ph="UPDATE oxcat... " />
+            <marker date="1533198796000" expanded="true" signature="34454:34537" ph="SELECT ${$sF... ${{$sTable}}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/oxlistobject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/oxarticle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="951">
+          <caret line="2689" column="5" lean-forward="false" selection-start-line="2689" selection-start-column="5" selection-end-line="2689" selection-end-column="5" />
+          <folding>
+            <marker date="1533198796000" expanded="true" signature="29219:29398" ph="update oxart... " />
+            <marker date="1533198796000" expanded="true" signature="36000:36213" ph="select ${{$s... " />
+            <marker date="1533198796000" expanded="true" signature="40176:40389" ph="select ${{$s... " />
+            <marker date="1533198796000" expanded="true" signature="44081:44171" ph="select * fro... ${$oBaseObj-&gt;getViewName()}" />
+            <marker date="1533198796000" expanded="true" signature="54166:54424" ph="select 1 fro... ${$sO2CView}" />
+            <marker date="1533198796000" expanded="true" signature="59644:59734" ph="select oxsto... oxarticles" />
+            <marker date="1533198796000" expanded="true" signature="60055:60174" ph="update oxart... " />
+            <marker date="1533198796000" expanded="true" signature="60957:61064" ph="update oxart... " />
+            <marker date="1533198796000" expanded="true" signature="61657:61733" ph="update oxart... " />
+            <marker date="1533198796000" expanded="true" signature="67013:67060" ph="select oxpar... oxarticles" />
+            <marker date="1533198796000" expanded="true" signature="68882:68939" ph="select oxsto... oxarticles" />
+            <marker date="1533198796000" expanded="true" signature="71340:71389" ph="select oxlon... $" />
+            <marker date="1533198796000" expanded="true" signature="79060:79130" ph="select * fro... $" />
+            <marker date="1533198796000" expanded="true" signature="90320:90481" ph="update oxart... " />
+            <marker date="1533198796000" expanded="true" signature="92004:92080" ph="select ${$sF... ${$this-&gt;_getObjectViewName('oxcategories')}" />
+            <marker date="1533198796000" expanded="true" signature="92932:93341" ph="select 1 fro... ${$this-&gt;_getObjectViewName('oxcategories')}" />
+            <marker date="1533198796000" expanded="true" signature="95997:96063" ph="SELECT * FRO... oxfiles" />
+            <marker date="1533198796000" expanded="true" signature="96999:97038" ph="SELECT 1 FRO... oxprice2article" />
+            <marker date="1533198796000" expanded="true" signature="102599:103014" ph="select oxobj... ${$sO2CView}" />
+            <marker date="1533198796000" expanded="true" signature="104145:104312" ph="select oxobj... ${$sO2CView}" />
+            <marker date="1533198796000" expanded="true" signature="106662:106716" ph="select 1 fro... ${$sArticleTable}" />
+            <marker date="1533198796000" expanded="true" signature="115170:115319" ph="select oxid ${$this-&gt;getViewName(true)}" />
+            <marker date="1533198796000" expanded="true" signature="117695:117771" ph="select oxatt... oxobject2attribute" />
+            <marker date="1533198796000" expanded="true" signature="119210:119495" ph="select oxobj... oxobject2attribute" />
+            <marker date="1533198796000" expanded="true" signature="120023:120168" ph="select ${$sF... ${$sArticleTable}" />
+            <marker date="1533198796000" expanded="true" signature="120970:121254" ph="select ${{$s... " />
+            <marker date="1533198796000" expanded="true" signature="121299:121524" ph="select ${{$s... " />
+            <marker date="1533198796000" expanded="true" signature="122366:122470" ph="select oxid $" />
+            <marker date="1533198796000" expanded="true" signature="122930:123499" ph="select disti... " />
+            <marker date="1533198796000" expanded="true" signature="124798:124867" ph="select oxobj... ${$sO2CView}" />
+            <marker date="1533198796000" expanded="true" signature="125288:125354" ph="select oxcat... ${$sCategoryView}" />
+            <marker date="1533198796000" expanded="true" signature="136145:136226" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="136298:136348" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="136420:136469" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="136541:136592" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="136664:136708" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="136780:136844" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="136916:136957" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="137035:137120" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="137252:137341" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="137399:137437" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="137621:137655" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="137698:137744" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="137822:137867" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="138233:138298" ph="select oxid ${$this-&gt;getViewName()}" />
+            <marker date="1533198796000" expanded="true" signature="140666:140740" ph="select oxsto... oxarticles" />
+            <marker date="1533198796000" expanded="true" signature="140962:141124" ph="select sum(o... ${$this-&gt;getViewName(true)}" />
+            <marker date="1533198796000" expanded="true" signature="141211:141275" ph="update oxart... " />
+            <marker date="1533198796000" expanded="true" signature="142992:143055" ph="select count... oxarticles" />
+            <marker date="1533198796000" expanded="true" signature="143160:143221" ph="update oxart... " />
+            <marker date="1533198796000" expanded="true" signature="143632:144230" ph="SELECT MIN( ${$this-&gt;getViewName(true)}" />
+            <marker date="1533198796000" expanded="true" signature="144479:144757" ph="UPDATE `oxar... " />
+            <marker date="1533198796000" expanded="true" signature="144851:145059" ph="UPDATE `oxar... " />
+            <marker date="1533198796000" expanded="true" signature="155902:155925" ph="UPDATE `oxar... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/article_extend.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="291" column="4" lean-forward="false" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#form#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/translations/en/lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4845">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/en/help_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/en/cust_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/en/lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="399" column="27" lean-forward="false" selection-start-line="399" selection-start-column="1" selection-end-line="399" selection-end-column="27" />
+          <folding>
+            <marker date="1533198796000" expanded="true" signature="85540:85548" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/category_main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="286" column="9" lean-forward="false" selection-start-line="286" selection-start-column="9" selection-end-line="286" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/blocks/rvpcategory_main.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+Paymorrow changelog
+===================
+
+v1.0.2
+---------
+ * Changes from module v2.0.1 (for OXID eShop 6) applied
+
+v1.0.1
+------
+ * Paymorrow gateway updated to version "patch_20150129"
+ * User manuals extended for information on module integration in highly customized shops
+
+v1.0.0
+------
+ * Initial release

@@ -1,0 +1,27 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    image: trial-task
+    ports:
+      - 8080:80
+    volumes:
+      - .:/var/www/html/
+    links:
+      - mysql
+    environment:
+      DB_HOST: mysql
+      DB_DATABASE: test-shop
+      DB_USERNAME: test
+      DB_PASSWORD: test123
+  mysql:
+    image: mysql:5.7
+    ports:
+      - 13306:3306
+    environment:
+      MYSQL_DATABASE: test-shop
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test123
+      MYSQL_ROOT_PASSWORD: test123

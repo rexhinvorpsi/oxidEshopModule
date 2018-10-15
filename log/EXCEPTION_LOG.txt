@@ -1,0 +1,798 @@
+oxException (time: 2018-10-14 21:26:08): [0]: Could not instantiate mail function. 
+ Stack Trace: #0 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('oxexception', 0, Array)
+#1 [internal function]: oxUtilsObject->oxNew('oxException')
+#2 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#3 /var/www/html/core/oxemail.php(2060): oxNew('oxException')
+#4 /var/www/html/core/oxemail.php(415): oxEmail->_sendMail()
+#5 /var/www/html/core/oxemail.php(712): oxEmail->send()
+#6 /var/www/html/application/components/oxcmp_user.php(534): oxEmail->sendRegisterEmail(Object(oxUser))
+#7 /var/www/html/application/components/oxcmp_user.php(557): oxcmp_user->createUser()
+#8 /var/www/html/core/oxview.php(526): oxcmp_user->registerUser()
+#9 /var/www/html/application/controllers/oxubase.php(649): oxView->executeFunction('registeruser')
+#10 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#11 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('register', 'registeruser', NULL, NULL)
+#12 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('register', 'registeruser', NULL, NULL)
+#13 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#14 /var/www/html/index.php(26): Oxid::run()
+#15 {main}
+
+
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:08): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:14): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:30): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:30): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:30): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:30): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:30): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:31): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:31): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:31): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:31): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:31): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:31): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:31): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:31): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:32): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:32): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:32): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:32): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:32): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:32): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:33): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:33): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:33): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:33): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:33): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:34): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:34): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:34): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:34): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:34): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:34): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:34): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:34): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:35): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:35): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:35): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:35): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:35): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:35): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
+oxConnectionException-oxException (time: 2018-10-15 15:05:35): [0]: EXCEPTION_CONNECTION_NODB 
+ Stack Trace: #0 /var/www/html/core/oxdb.php(463): oxDb->_notifyConnectionErrors(Object(object_ADOConnection))
+#1 /var/www/html/core/oxdb.php(492): oxDb->_onConnectionError(Object(object_ADOConnection))
+#2 /var/www/html/core/oxdb.php(553): oxDb->_getDbInstance()
+#3 /var/www/html/core/oxconfig.php(538): oxDb::getDb()
+#4 /var/www/html/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#5 /var/www/html/core/oxconfig.php(331): oxConfig->init()
+#6 /var/www/html/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#7 /var/www/html/core/oxshopcontrol.php(621): oxConfig->isProductiveMode()
+#8 /var/www/html/core/oxshopcontrol.php(585): oxShopControl->_getErrorReportingLevel()
+#9 /var/www/html/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/oxseo.php(44): require('/var/www/html/i...')
+#13 {main}
+
+ Connection Adress --> 
+Connection Error --> tests/var/www/html/Connection refused
+---------------------------------------------
