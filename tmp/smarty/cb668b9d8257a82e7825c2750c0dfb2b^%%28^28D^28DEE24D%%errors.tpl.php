@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-10-14 20:48:15
+<?php /* Smarty version 2.6.28, created on 2018-10-17 09:36:26
          compiled from message/errors.tpl */ ?>
 <?php if (count ( $this->_tpl_vars['Errors'] ) > 0 && count ( $this->_tpl_vars['Errors']['default'] ) > 0): ?>
     <?php $_from = $this->_tpl_vars['Errors']['default']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):

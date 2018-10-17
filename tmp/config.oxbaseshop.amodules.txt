@@ -1,1 +1,1 @@
-a:2:{s:7:"oxorder";s:38:"oe/invoicepdf/models/invoicepdfoxorder";s:14:"order_overview";s:56:"oe/invoicepdf/controllers/admin/invoicepdforder_overview";}
+a:4:{s:7:"oxorder";s:38:"oe/invoicepdf/models/invoicepdfoxorder";s:14:"order_overview";s:56:"oe/invoicepdf/controllers/admin/invoicepdforder_overview";s:13:"category_main";s:83:"rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main";s:10:"oxcategory";s:63:"rvp/categoryattachment/models/admin/categoryattachment_category";}

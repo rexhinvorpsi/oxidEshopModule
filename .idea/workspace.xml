@@ -1,7 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c016cd0-419b-4a09-a010-30aeefee0f07" name="Default" comment="" />
+    <list default="true" id="4c016cd0-419b-4a09-a010-30aeefee0f07" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/de/categoryattachment_lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/en/categoryattachment_lang.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/rvp/extendCategoryAttachment.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/config.oxbaseshop.amodulefiles.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_3742e2ea5cc2f76304bbd61770ef05c9seo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_aLocalManufacturerCache.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_dynamic10seo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxarticles_alist_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxarticles_details_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxarticles_details_i18n_locator.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxarticles_oxwarticledetails_i18n_locator.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxarticles_oxwservicemenu_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxarticles_oxwtagcloud_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxattribute_allviews_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxcountry_allviews_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxdelivery_allviews_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxdeliveryset_allviews_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxgroups_allviews_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxmediaurls_allviews_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxnewssubscribed_allviews.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxobject2group_allviews.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxpayments_allviews_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxratings_allviews.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxremark_allviews.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxreviews_allviews.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxselectlist_allviews_i18n.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_fieldnames_oxuserbaskets_allviews.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxContent10seo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxartextends_allfields_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxartextends_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxattribute_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxcategory10seo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxdelivery_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxdeliveryset_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxmanufacturer10seo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxnewssubscribed_allfields_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxnewssubscribed_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxobject2category_allfields_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxobject2group_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxorder_allfields_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxorder_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxpayments_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxprice2article_allfields_.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxratings_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxremark_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxreviews_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxselectlist_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_oxuserbaskets_allfields_1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/oxpec_static10seo.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%0C^0C5^0C50F686%%theme.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%19^198^19803786%%article_extend.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%1A^1A9^1A96C9E9%%list_order.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%1E^1E6^1E6FDAF4%%variantlist.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%2F^2F2^2F29BC73%%country.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%31^31F^31F7A319%%article_pictures.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%38^386^386CF71A%%category_pictures.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%87^87F^87FA5ADC%%shop.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%A3^A3C^A3CACD1F%%shop_system.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%A9^A96^A9620C7E%%shop_main.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%D0^D0E^D0E4C73C%%headitem.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%DE^DE3^DE3AEC59%%shop_list.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%07^07E^07E23381%%deliverytime.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%08^088^08887D5B%%footer.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%08^08A^08ABD53A%%details.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%0B^0B0^0B04078A%%photoswipe.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%0D^0D8^0D896719%%selectbox.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%18^189^1892FF67%%register.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%1B^1BE^1BE9113A%%attributes.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%1E^1E7^1E7B11A6%%related_products.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%23^23B^23BCA05A%%ox%3Aoxregisterplainemailoxcontent1oxbaseshop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%26^266^2667E804%%inputvalidation.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%28^28B^28BA2D13%%register_success.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%2E^2ED^2ED73219%%state.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%41^41B^41BB792A%%rating.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%44^444^444DC14F%%compare_links.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%46^467^46771D53%%tags.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%57^570^57071C06%%breadcrumb.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%5E^5E9^5E9B9D5B%%productmain.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%63^635^635C5CED%%formparams.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%67^678^6781DB21%%salutation.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%6B^6BD^6BD86658%%ox%3Aoxemailfooteroxcontent1oxbaseshop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%6F^6F3^6F33C5DA%%paging.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%79^790^7907FF72%%details.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%8D^8DA^8DA1218F%%listlocator.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%A3^A3A^A3A60E35%%sort.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%A4^A41^A41D7F7F%%pricealarm.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%A4^A43^A43FC5D6%%register.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%A5^A59^A595DDB8%%fullproductinfo.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%A5^A5C^A5CD60BD%%tags.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%AB^AB9^AB92D4C0%%media.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%B1^B1B^B1B5A69E%%user_account.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%B2^B20^B209CF30%%itemsperpage.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%C2^C2D^C2DCDDFF%%ox%3Aoxemailfooterplainoxcontent1oxbaseshop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%C3^C37^C3718CF0%%ox%3Aoxregisteremailoxcontent1oxbaseshop.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%C5^C5B^C5B38CB0%%listdisplaytype.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%DA^DA8^DA80D1BB%%morepics.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%E9^E97^E97D838C%%user_billing.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%EE^EE7^EE7D7FF1%%reviews.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%F0^F0F^F0F92504%%list.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%F1^F13^F13B498A%%header.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%F4^F4C^F4CC24F9%%register.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%F5^F50^F500F10E%%tabs.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%F5^F5E^F5EE4DF7%%sidebar.tpl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%F6^F6C^F6CC9D7D%%register.tpl.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/EXCEPTION_LOG.txt" afterPath="$PROJECT_DIR$/log/EXCEPTION_LOG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rvp/categoryattachment/metadata.php" afterPath="$PROJECT_DIR$/modules/rvp/categoryattachment/metadata.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/blocks/rvpcategory_main.tpl" afterPath="$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/blocks/rvpcategory_main.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/config.oxbaseshop.amodules.txt" afterPath="$PROJECT_DIR$/tmp/config.oxbaseshop.amodules.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/oxpec_aLocalCatCache.txt" afterPath="$PROJECT_DIR$/tmp/oxpec_aLocalCatCache.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/oxpec_langcache_1_1_oxbaseshop_flow_default.txt" afterPath="$PROJECT_DIR$/tmp/oxpec_langcache_1_1_oxbaseshop_flow_default.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%0F^0FB^0FBC20B4%%_formparams.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%0F^0FB^0FBC20B4%%_formparams.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%16^161^161A2516%%module_main.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%16^161^161A2516%%module_main.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%18^186^186A9544%%start.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%18^186^186A9544%%start.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%20^203^20361C72%%inputhelp.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%20^203^20361C72%%inputhelp.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%27^273^27320283%%article_main.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%27^273^27320283%%article_main.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%30^301^30142A40%%bottomnavicustom.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%30^301^30142A40%%bottomnavicustom.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%31^31C^31C327B8%%category.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%31^31C^31C327B8%%category.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%3F^3FA^3FAD6657%%pagetabsnippet.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%3F^3FA^3FAD6657%%pagetabsnippet.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%41^416^416864CF%%help.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%41^416^416864CF%%help.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%47^47B^47B0D5FE%%inc_error.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%47^47B^47B0D5FE%%inc_error.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%4C^4CE^4CEF0809%%navigation.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%4C^4CE^4CEF0809%%navigation.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%50^506^506AE2A4%%article_list.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%50^506^506AE2A4%%article_list.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%61^614^6142C531%%module_list.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%61^614^6142C531%%module_list.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%67^674^67457451%%nav_frame.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%67^674^67457451%%nav_frame.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%6A^6A5^6A537DD8%%login.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%6A^6A5^6A537DD8%%login.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%74^741^74101885%%article_extend.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%74^741^74101885%%article_extend.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%86^861^861EA998%%article.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%86^861^861EA998%%article.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%86^864^8644F0D6%%home.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%86^864^8644F0D6%%home.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%8A^8A2^8A2E530C%%navigation_shopselect.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%8A^8A2^8A2E530C%%navigation_shopselect.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%9E^9EA^9EA5C070%%module_config.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%9E^9EA^9EA5C070%%module_config.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%9F^9F1^9F1649A2%%pagenavisnippet.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%9F^9F1^9F1649A2%%pagenavisnippet.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%B2^B2F^B2F892B4%%category_list.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%B2^B2F^B2F892B4%%category_list.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%B5^B5F^B5F515E3%%language_edit.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%B5^B5F^B5F515E3%%language_edit.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%BC^BC2^BC2D61BD%%module_sortlist.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%BC^BC2^BC2D61BD%%module_sortlist.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%C5^C5A^C5A07293%%category_main.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%C5^C5A^C5A07293%%category_main.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%DD^DD9^DD9477BC%%headitem.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%DD^DD9^DD9477BC%%headitem.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%E7^E7C^E7CAB165%%bottomitem.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%E7^E7C^E7CAB165%%bottomitem.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%E9^E91^E91AD39C%%bottomnaviitem.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%E9^E91^E91AD39C%%bottomnaviitem.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%F7^F7F^F7F34188%%header.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%F7^F7F^F7F34188%%header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%F8^F87^F8728316%%module.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%F8^F87^F8728316%%module.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%FE^FE4^FE447ED1%%tooltips.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/8cb9b942d3ab2d3076a5f0536d08aeb6^%%FE^FE4^FE447ED1%%tooltips.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%02^02B^02B296A6%%categorylist.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%02^02B^02B296A6%%categorylist.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%28^28D^28DEE24D%%errors.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%28^28D^28DEE24D%%errors.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%36^366^366ECF91%%page.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%36^366^366ECF91%%page.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%40^405^405277AF%%start.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%40^405^405277AF%%start.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%4B^4BD^4BDBEFEF%%categorylist.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%4B^4BD^4BDBEFEF%%categorylist.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%4E^4E2^4E2928E7%%minibasket.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%4E^4E2^4E2928E7%%minibasket.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%57^579^5797C01C%%init.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%57^579^5797C01C%%init.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%61^61E^61E51B54%%languages.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%61^61E^61E51B54%%languages.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%6A^6A6^6A6537CA%%footer.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%6A^6A6^6A6537CA%%footer.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%6B^6B0^6B05E34E%%cookienote.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%6B^6B0^6B05E34E%%cookienote.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%7E^7EF^7EFB79AD%%servicebox.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%7E^7EF^7EFB79AD%%servicebox.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%80^801^801F4923%%listitem_grid.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%80^801^801F4923%%listitem_grid.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%8D^8DF^8DF48E80%%manufacturersslider.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%8D^8DF^8DF48E80%%manufacturersslider.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%90^90B^90B7B94A%%base.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%90^90B^90B7B94A%%base.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%93^93D^93D6031B%%header.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%93^93D^93D6031B%%header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%9C^9CC^9CCDAE2B%%servicemenu.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%9C^9CC^9CCDAE2B%%servicemenu.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%A1^A12^A12D312F%%info.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%A1^A12^A12D312F%%info.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%AB^AB1^AB142F26%%loginbox.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%AB^AB1^AB142F26%%loginbox.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%AD^AD1^AD1B1B13%%minibasketmodal.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%AD^AD1^AD1B1B13%%minibasketmodal.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%B2^B24^B2441980%%newsletter.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%B2^B24^B2441980%%newsletter.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%BE^BE4^BE44A1C7%%js_vars.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%BE^BE4^BE44A1C7%%js_vars.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%C3^C37^C375492C%%manufacturerlist.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%C3^C37^C375492C%%manufacturerlist.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%C6^C65^C6522B20%%search.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%C6^C65^C6522B20%%search.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%CB^CB6^CB6C1C15%%listitem_infogrid.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%CB^CB6^CB6C1C15%%listitem_infogrid.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%D7^D7A^D7AA9363%%promoslider.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%D7^D7A^D7AA9363%%promoslider.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%DE^DEC^DECBC7E8%%services.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%DE^DEC^DECBC7E8%%services.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%E0^E04^E04559A3%%minibasket.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%E0^E04^E04559A3%%minibasket.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%E5^E5C^E5C7D84A%%currencies.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%E5^E5C^E5C7D84A%%currencies.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%EA^EA2^EA2F3E4A%%shoppingbag.svg.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%EA^EA2^EA2F3E4A%%shoppingbag.svg.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%FC^FCA^FCA347E9%%list.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%FC^FCA^FCA347E9%%list.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%FD^FDD^FDDEDBDC%%dynscript.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/cb668b9d8257a82e7825c2750c0dfb2b^%%FD^FDD^FDDEDBDC%%dynscript.tpl.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,138 +190,99 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="oxarticle.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/oxarticle.php">
+      <file leaf-file-name="categoryattachment_category_main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="951">
-              <caret line="2689" column="5" lean-forward="false" selection-start-line="2689" selection-start-column="5" selection-end-line="2689" selection-end-column="5" />
-              <folding>
-                <marker date="1533198796000" expanded="true" signature="29219:29398" ph="update oxart... " />
-                <marker date="1533198796000" expanded="true" signature="36000:36213" ph="select ${{$s... " />
-                <marker date="1533198796000" expanded="true" signature="40176:40389" ph="select ${{$s... " />
-                <marker date="1533198796000" expanded="true" signature="44081:44171" ph="select * fro... ${$oBaseObj-&gt;getViewName()}" />
-                <marker date="1533198796000" expanded="true" signature="54166:54424" ph="select 1 fro... ${$sO2CView}" />
-                <marker date="1533198796000" expanded="true" signature="59644:59734" ph="select oxsto... oxarticles" />
-                <marker date="1533198796000" expanded="true" signature="60055:60174" ph="update oxart... " />
-                <marker date="1533198796000" expanded="true" signature="60957:61064" ph="update oxart... " />
-                <marker date="1533198796000" expanded="true" signature="61657:61733" ph="update oxart... " />
-                <marker date="1533198796000" expanded="true" signature="67013:67060" ph="select oxpar... oxarticles" />
-                <marker date="1533198796000" expanded="true" signature="68882:68939" ph="select oxsto... oxarticles" />
-                <marker date="1533198796000" expanded="true" signature="71340:71389" ph="select oxlon... $" />
-                <marker date="1533198796000" expanded="true" signature="79060:79130" ph="select * fro... $" />
-                <marker date="1533198796000" expanded="true" signature="90320:90481" ph="update oxart... " />
-                <marker date="1533198796000" expanded="true" signature="92004:92080" ph="select ${$sF... ${$this-&gt;_getObjectViewName('oxcategories')}" />
-                <marker date="1533198796000" expanded="true" signature="92932:93341" ph="select 1 fro... ${$this-&gt;_getObjectViewName('oxcategories')}" />
-                <marker date="1533198796000" expanded="true" signature="95997:96063" ph="SELECT * FRO... oxfiles" />
-                <marker date="1533198796000" expanded="true" signature="96999:97038" ph="SELECT 1 FRO... oxprice2article" />
-                <marker date="1533198796000" expanded="true" signature="102599:103014" ph="select oxobj... ${$sO2CView}" />
-                <marker date="1533198796000" expanded="true" signature="104145:104312" ph="select oxobj... ${$sO2CView}" />
-                <marker date="1533198796000" expanded="true" signature="106662:106716" ph="select 1 fro... ${$sArticleTable}" />
-                <marker date="1533198796000" expanded="true" signature="115170:115319" ph="select oxid ${$this-&gt;getViewName(true)}" />
-                <marker date="1533198796000" expanded="true" signature="117695:117771" ph="select oxatt... oxobject2attribute" />
-                <marker date="1533198796000" expanded="true" signature="119210:119495" ph="select oxobj... oxobject2attribute" />
-                <marker date="1533198796000" expanded="true" signature="120023:120168" ph="select ${$sF... ${$sArticleTable}" />
-                <marker date="1533198796000" expanded="true" signature="120970:121254" ph="select ${{$s... " />
-                <marker date="1533198796000" expanded="true" signature="121299:121524" ph="select ${{$s... " />
-                <marker date="1533198796000" expanded="true" signature="122366:122470" ph="select oxid $" />
-                <marker date="1533198796000" expanded="true" signature="122930:123499" ph="select disti... " />
-                <marker date="1533198796000" expanded="true" signature="124798:124867" ph="select oxobj... ${$sO2CView}" />
-                <marker date="1533198796000" expanded="true" signature="125288:125354" ph="select oxcat... ${$sCategoryView}" />
-                <marker date="1533198796000" expanded="true" signature="136145:136226" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="136298:136348" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="136420:136469" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="136541:136592" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="136664:136708" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="136780:136844" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="136916:136957" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="137035:137120" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="137252:137341" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="137399:137437" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="137621:137655" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="137698:137744" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="137822:137867" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="138233:138298" ph="select oxid ${$this-&gt;getViewName()}" />
-                <marker date="1533198796000" expanded="true" signature="140666:140740" ph="select oxsto... oxarticles" />
-                <marker date="1533198796000" expanded="true" signature="140962:141124" ph="select sum(o... ${$this-&gt;getViewName(true)}" />
-                <marker date="1533198796000" expanded="true" signature="141211:141275" ph="update oxart... " />
-                <marker date="1533198796000" expanded="true" signature="142992:143055" ph="select count... oxarticles" />
-                <marker date="1533198796000" expanded="true" signature="143160:143221" ph="update oxart... " />
-                <marker date="1533198796000" expanded="true" signature="143632:144230" ph="SELECT MIN( ${$this-&gt;getViewName(true)}" />
-                <marker date="1533198796000" expanded="true" signature="144479:144757" ph="UPDATE `oxar... " />
-                <marker date="1533198796000" expanded="true" signature="144851:145059" ph="UPDATE `oxar... " />
-                <marker date="1533198796000" expanded="true" signature="155902:155925" ph="UPDATE `oxar... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oxlistobject.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/oxlistobject.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-306">
+              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="oxcategory.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/oxcategory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12767">
-              <caret line="887" column="5" lean-forward="false" selection-start-line="887" selection-start-column="5" selection-end-line="887" selection-end-column="5" />
-              <folding>
-                <marker date="1533198796000" expanded="true" signature="7324:7530" ph="UPDATE oxcat... " />
-                <marker date="1533198796000" expanded="true" signature="7645:7854" ph="UPDATE oxcat... " />
-                <marker date="1533198796000" expanded="true" signature="8115:8178" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="8281:8352" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="8462:8527" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="8598:8663" ph="delete from " />
-                <marker date="1533198796000" expanded="true" signature="21424:21494" ph="select oxroo... ${getViewName('oxcategories')}" />
-                <marker date="1533198796000" expanded="true" signature="22555:22862" ph="UPDATE oxcat... " />
-                <marker date="1533198796000" expanded="true" signature="22982:23193" ph="UPDATE oxcat... " />
-                <marker date="1533198796000" expanded="true" signature="24445:24494" ph="select oxpar... oxcategories" />
-                <marker date="1533198796000" expanded="true" signature="25804:25851" ph="select oxroo... oxcategories" />
-                <marker date="1533198796000" expanded="true" signature="26202:26247" ph="select oxlef... oxcategories" />
-                <marker date="1533198796000" expanded="true" signature="26908:26993" ph="UPDATE oxcat... " />
-                <marker date="1533198796000" expanded="true" signature="27879:27958" ph="UPDATE oxcat... " />
-                <marker date="1533198796000" expanded="true" signature="28014:28096" ph="UPDATE oxcat... " />
-                <marker date="1533198796000" expanded="true" signature="28549:28726" ph="UPDATE oxcat... " />
-                <marker date="1533198796000" expanded="true" signature="28925:29006" ph="UPDATE oxcat... " />
-                <marker date="1533198796000" expanded="true" signature="29073:29157" ph="UPDATE oxcat... " />
-                <marker date="1533198796000" expanded="true" signature="34454:34537" ph="SELECT ${$sF... ${{$sTable}}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rvpcategory_main.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rvpcategory_main.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/blocks/rvpcategory_main.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#0;n#tr#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lang.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/translations/en/lang.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4845">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cust_lang.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/en/cust_lang.php">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1071">
+              <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+              <folding>
+                <marker date="1539786426993" expanded="true" signature="1066:1069" ph="3" />
+                <marker date="1539786426993" expanded="true" signature="1070:1578" ph="services: &lt;2 keys&gt;" />
+                <marker date="1539786426993" expanded="true" signature="1082:1381" ph="app: &lt;6 keys&gt;" />
+                <marker date="1539786426993" expanded="true" signature="1091:1151" ph="build: &lt;2 keys&gt;" />
+                <marker date="1539786426993" expanded="true" signature="1133:1151" ph=".docker/Dockerfile" />
+                <marker date="1539786426993" expanded="true" signature="1163:1173" ph="trial-task" />
+                <marker date="1539786426993" expanded="true" signature="1178:1200" ph="ports: &lt;1 item&gt;" />
+                <marker date="1539786426993" expanded="true" signature="1193:1200" ph="8080:80" />
+                <marker date="1539786426993" expanded="true" signature="1205:1238" ph="volumes: &lt;1 item&gt;" />
+                <marker date="1539786426993" expanded="true" signature="1222:1238" ph=".:/var/www/html/" />
+                <marker date="1539786426993" expanded="true" signature="1243:1263" ph="links: &lt;1 item&gt;" />
+                <marker date="1539786426993" expanded="true" signature="1258:1263" ph="mysql" />
+                <marker date="1539786426993" expanded="true" signature="1268:1381" ph="environment: &lt;4 keys&gt;" />
+                <marker date="1539786426993" expanded="true" signature="1296:1301" ph="mysql" />
+                <marker date="1539786426993" expanded="true" signature="1321:1330" ph="test-shop" />
+                <marker date="1539786426993" expanded="true" signature="1350:1354" ph="test" />
+                <marker date="1539786426993" expanded="true" signature="1374:1381" ph="test123" />
+                <marker date="1539786426993" expanded="true" signature="1384:1578" ph="mysql: &lt;3 keys&gt;" />
+                <marker date="1539786426993" expanded="true" signature="1402:1411" ph="mysql:5.7" />
+                <marker date="1539786426993" expanded="true" signature="1416:1441" ph="ports: &lt;1 item&gt;" />
+                <marker date="1539786426993" expanded="true" signature="1431:1441" ph="13306:3306" />
+                <marker date="1539786426993" expanded="true" signature="1446:1578" ph="environment: &lt;4 keys&gt;" />
+                <marker date="1539786426993" expanded="true" signature="1481:1490" ph="test-shop" />
+                <marker date="1539786426993" expanded="true" signature="1509:1513" ph="test" />
+                <marker date="1539786426993" expanded="true" signature="1536:1543" ph="test123" />
+                <marker date="1539786426993" expanded="true" signature="1571:1578" ph="test123" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categoryattachment_category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="49" />
+              <folding>
+                <marker date="1539786125567" expanded="true" signature="684:746" ph="select * fro... $" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="metadata.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/metadata.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="40" column="89" lean-forward="false" selection-start-line="40" selection-start-column="89" selection-end-line="40" selection-end-column="89" />
+              <folding>
+                <marker date="1539762244745" expanded="true" signature="1306:1514" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="categoryattachment_lang.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/de/categoryattachment_lang.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pkg.info" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pkg.info">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -152,46 +291,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="help_lang.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/en/help_lang.php">
+      <file leaf-file-name="categoryattachment_lang.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/en/categoryattachment_lang.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lang.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/en/lang.php">
+      <file leaf-file-name="oxubase.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/oxubase.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="399" column="27" lean-forward="false" selection-start-line="399" selection-start-column="1" selection-end-line="399" selection-end-column="27" />
-              <folding>
-                <marker date="1533198796000" expanded="true" signature="85540:85548" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category_main.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/category_main.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="286" column="9" lean-forward="false" selection-start-line="286" selection-start-column="9" selection-end-line="286" selection-end-column="9" />
+            <state relative-caret-position="-8518">
+              <caret line="755" column="20" lean-forward="false" selection-start-line="755" selection-start-column="20" selection-end-line="755" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article_extend.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/article_extend.tpl">
+      <file leaf-file-name="article_extend.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/admin/article_extend.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="291" column="4" lean-forward="false" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="92" />
-              <folding>
-                <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#form#1;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="207">
+              <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="232" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -200,22 +325,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Categor</find>
-      <find>media</find>
-      <find>mediaUrl</find>
-      <find>upload</find>
-      <find>image</find>
-      <find>url</find>
-      <find>fieldset</find>
-      <find>$soxId</find>
-      <find>save</find>
-      <find>update</find>
-      <find>_insert</find>
-      <find>$blRes</find>
-      <find>getmedia</find>
-      <find>fiel</find>
       <find>article</find>
       <find>ARTICLE_EXTEND_DESCRIPTION</find>
+      <find>save</find>
+      <find>mediaurl</find>
+      <find>_save</find>
+      <find>insert</find>
+      <find>_createCategoryTree</find>
+      <find>$aMediaFile</find>
+      <find>getmedia</find>
+      <find>$_aMediaUrls</find>
+      <find>$soxId</find>
+      <find>getme</find>
+      <find>getMed</find>
+      <find>$edit</find>
+      <find>updateMedia</find>
+      <find>getIsOrderStep</find>
+      <find>id</find>
+      <find>getId</find>
+      <find>select</find>
+      <find>__CON</find>
+      <find>db</find>
+      <find>getisor</find>
+      <find>getisorder</find>
+      <find>getisorderS</find>
+      <find>getisorderSte</find>
+      <find>getisorderStep</find>
+      <find>_setBillingAddressToPdf</find>
+      <find>Order</find>
+      <find>$oArticle</find>
+      <find>delete</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -227,10 +366,19 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/modules/categoryAttachment/extendCategoryAttachment.php" />
         <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/blocks/rvpcategory_attachemnt.tpl" />
-        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/metadata.php" />
         <option value="$PROJECT_DIR$/config.inc.php" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/extension/controller/admin/categoryattachment_category_main.php" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/models/admin/categoryattachement_oxcategory.php" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/models/admin/categoryextended.php" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/metadata.php" />
+        <option value="$PROJECT_DIR$/README" />
         <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/blocks/rvpcategory_main.tpl" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/en/categoryattachment_lang.php" />
+        <option value="$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/de/categoryattachment_lang.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -244,8 +392,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,6 +411,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -339,47 +488,15 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trialTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trialTask" />
+              <option name="myItemId" value="rvp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trialTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trialTask" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="categoryattachment" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -405,33 +522,27 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="translations" />
+              <option name="myItemId" value="rvp" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="en" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trialTask" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trialTask" />
+              <option name="myItemId" value="categoryattachment" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="translations" />
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="de" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,13 +556,106 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rvp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categoryattachment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rvp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categoryattachment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rvp" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="categoryattachment" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="extension" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="trialTask" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".docker" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -461,6 +665,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rexhin Vorpsi\Desktop\trialTask\modules\rvp\categoryattachment\views\admin\de" />
+      <recent name="C:\Users\Rexhin Vorpsi\Desktop\trialTask\modules\rvp\categoryattachment\views\admin\en" />
       <recent name="C:\Users\Rexhin Vorpsi\Desktop\trialTask\modules\rvp\categoryattachment" />
       <recent name="C:\Users\Rexhin Vorpsi\Desktop\trialTask\modules\rvp" />
     </key>
@@ -600,33 +806,36 @@
       <option name="presentableId" value="Default" />
       <updated>1539536656994</updated>
       <workItem from="1539536659808" duration="5671000" />
-      <workItem from="1539551276780" duration="17707000" />
+      <workItem from="1539551276780" duration="35827000" />
+      <workItem from="1539726348901" duration="1081000" />
+      <workItem from="1539761876359" duration="1555000" />
+      <workItem from="1539763814941" duration="8986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23378000" />
+    <option name="totallyTimeSpent" value="53120000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25244498" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3237519" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -641,234 +850,164 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/models/oxcontent.php">
+    <entry file="file://$PROJECT_DIR$/modules/oe/oepaypal/metadata.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="187">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/oethemeswitcher/metadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1533198796000" expanded="true" signature="7717:7766" ph="select oxpar... oxcategories" />
-            <marker date="1533198796000" expanded="true" signature="10489:10566" ph="delete from " />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/register.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/content_main.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/metadata.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/article_main.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1533200095000" expanded="true" signature="1155:1195" ph="..." />
-            <marker date="1533200095000" expanded="false" signature="1320:1360" ph="..." />
-            <marker date="1533200095000" expanded="false" signature="1471:1477" ph="ä" />
-            <marker date="1533200095000" expanded="true" signature="1584:1624" ph="..." />
-            <marker date="1533200095000" expanded="false" signature="1749:1789" ph="..." />
-            <marker date="1533200095000" expanded="false" signature="1900:1906" ph="ä" />
-          </folding>
+        <state relative-caret-position="1037">
+          <caret line="61" column="54" lean-forward="true" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/bestit/amazonpay4oxid/application/models/bestitamazonpay4oxidcontainer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2601">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/bestit/amazonpay4oxid/application/controllers/bestitamazoncron.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1533200095000" expanded="true" signature="2757:2955" ph="SELECT OXID,... oxorder" />
-            <marker date="1533200095000" expanded="true" signature="3649:3848" ph="SELECT OXID,... oxorder" />
-            <marker date="1533200095000" expanded="true" signature="4543:4739" ph="SELECT OXID,... oxorder" />
-            <marker date="1533200095000" expanded="true" signature="5741:5896" ph="SELECT OXID,... oxorder" />
-            <marker date="1533200095000" expanded="true" signature="6469:6614" ph="SELECT BESTI... bestitamazonrefunds" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/bestit/amazonpay4oxid/application/models/bestitamazonpay4oxid.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1533200095000" expanded="true" signature="2440:2522" ph="SELECT OXACT... $" />
-            <marker date="1533200095000" expanded="true" signature="2889:3141" ph="SELECT OXOBJ... $" />
-            <marker date="1533200095000" expanded="true" signature="3444:3579" ph="SELECT OXID $" />
-            <marker date="1533200095000" expanded="true" signature="5570:5733" ph="SELECT oxid,... $" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/controllers/admin/oxpspaymorrowadminerrorlog.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/controllers/admin/oxpspaymorrowpaymentmap.php">
+    <entry file="file://$PROJECT_DIR$/modules/rvp/vendormetadata.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="24" column="49" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="49" />
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/controllers/oxpspaymorroworder.php">
+    <entry file="file://$PROJECT_DIR$/config.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527">
-          <caret line="68" column="40" lean-forward="false" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+        <state relative-caret-position="374">
+          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/rvp/extendCategoryAttachment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oxps/vendormetadata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/core/oxpsoxid2paymorrow.php">
+    <entry file="file://$PROJECT_DIR$/.docker/vhost.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oxps/paymorrow/core/oxpspaymorrowsettings.php">
+    <entry file="file://$PROJECT_DIR$/application/models/oxmediaurl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-93">
+          <caret line="105" column="53" lean-forward="false" selection-start-line="105" selection-start-column="53" selection-end-line="105" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/controllers/admin/invoicepdforder_overview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/models/invoicepdfarticlesummary.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="63" column="31" lean-forward="false" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/views/admin/blocks/order_overview.tpl">
+    <entry file="file://$PROJECT_DIR$/application/controllers/alist.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/views/admin/de/invoicepdf_lang.php">
+    <entry file="file://$PROJECT_DIR$/application/translations/en/lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4845">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/en/help_lang.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/views/admin/en/invoicepdf_lang.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/en/cust_lang.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/models/invoicepdfblock.php">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/category_main.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1266">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="604">
+          <caret line="286" column="9" lean-forward="false" selection-start-line="286" selection-start-column="9" selection-end-line="286" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/interface/oxiarticle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/oxarticlelist.php">
+    <entry file="file://$PROJECT_DIR$/modules/oe/oethemeswitcher/views/admin/de/module_options.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/oethemeswitcher/views/admin/en/module_options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/de/cust_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/en/lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="401" column="63" lean-forward="true" selection-start-line="401" selection-start-column="63" selection-end-line="401" selection-end-column="199" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/de/lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="397" column="225" lean-forward="true" selection-start-line="397" selection-start-column="63" selection-end-line="397" selection-end-column="225" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/content_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="94" column="34" lean-forward="true" selection-start-line="94" selection-start-column="34" selection-end-line="94" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="76" column="59" lean-forward="true" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
           <folding>
-            <marker date="1533198796000" expanded="true" signature="6573:6587" ph="select * fro... ${$sArticleTable}" />
-            <marker date="1533198796000" expanded="true" signature="7901:7915" ph="select * fro... ${$sArticleTable}" />
-            <marker date="1533198796000" expanded="true" signature="9181:9750" ph="select ${$sA... oxactions2article" />
-            <marker date="1533198796000" expanded="true" signature="10345:10491" ph="SELECT ${$sA... ${$sArticleTable}" />
-            <marker date="1533198796000" expanded="true" signature="12314:12443" ph="select ${$sA... oxaccessoire2article" />
-            <marker date="1533198796000" expanded="true" signature="16425:16493" ph="select disti... oxobject2list" />
-            <marker date="1533198796000" expanded="true" signature="18214:18305" ph="select ${$sA... ${$sArticleTable}" />
-            <marker date="1533198796000" expanded="true" signature="18495:18574" ph="select ${$sA... ${$sO2CView}" />
-            <marker date="1533198796000" expanded="true" signature="22968:23271" ph="select ${{$s... " />
-            <marker date="1533198796000" expanded="true" signature="24511:24869" ph="select ${{$s... " />
-            <marker date="1533198796000" expanded="true" signature="25904:25932" ph="select ${$sA... ${$sArticleTable}" />
-            <marker date="1533198796000" expanded="true" signature="26846:26889" ph="SELECT ${$sA... oxorderarticles" />
-            <marker date="1533198796000" expanded="true" signature="28342:28518" ph="select ${{$s... " />
-            <marker date="1533198796000" expanded="true" signature="28662:28847" ph="update ${{$s... " />
-            <marker date="1533198796000" expanded="true" signature="29152:29261" ph="select unix_... " />
-            <marker date="1533198796000" expanded="true" signature="30530:30658" ph="SELECT `oxid... oxarticles" />
-            <marker date="1533198796000" expanded="true" signature="33791:33847" ph="select oc.ox... " />
-            <marker date="1533198796000" expanded="true" signature="36320:36705" ph="SELECT ${$sF... ${$sO2CView}" />
-            <marker date="1533198796000" expanded="true" signature="37566:37869" ph="SELECT COUNT... ${$sO2CView}" />
-            <marker date="1533198796000" expanded="true" signature="40758:40828" ph="select ${{$s... " />
-            <marker date="1533198796000" expanded="true" signature="41777:41802" ph="select ${$sF... ${$sArticleTable}" />
-            <marker date="1533198796000" expanded="true" signature="42572:42597" ph="select ${$sF... ${$sArticleTable}" />
+            <marker date="1533198796000" expanded="true" signature="6929:6946" ph="select oxid ${getViewName('oxarticles')}" />
+            <marker date="1533198796000" expanded="true" signature="10963:10969" ph=" " />
+            <marker date="1533198796000" expanded="true" signature="11024:11030" ph=" " />
+            <marker date="1533198796000" expanded="true" signature="11304:11362" ph="select oxcat... oxobject2category" />
+            <marker date="1533198796000" expanded="true" signature="15619:15666" ph="select oxid oxarticles" />
+            <marker date="1533198796000" expanded="true" signature="16551:16750" ph="select oxid ${$oArticle-&gt;getCoreTableName()}" />
+            <marker date="1533198796000" expanded="true" signature="17353:17413" ph="select oxcat... $" />
+            <marker date="1533198796000" expanded="true" signature="17731:17975" ph="insert into oxobject2category... " />
+            <marker date="1533198796000" expanded="true" signature="18522:18577" ph="select oxid oxobject2attribute" />
+            <marker date="1533198796000" expanded="true" signature="19452:19494" ph="SELECT * FRO... oxfiles" />
+            <marker date="1533198796000" expanded="true" signature="20597:20657" ph="select oxsel... oxobject2selectlist" />
+            <marker date="1533198796000" expanded="true" signature="20928:21110" ph="insert into oxobject2selectlist... " />
+            <marker date="1533198796000" expanded="true" signature="21542:21603" ph="select oxobj... oxobject2article" />
+            <marker date="1533198796000" expanded="true" signature="21874:22057" ph="insert into oxobject2article... " />
+            <marker date="1533198796000" expanded="true" signature="22489:22553" ph="select oxobj... oxaccessoire2article" />
+            <marker date="1533198796000" expanded="true" signature="22824:23011" ph="insert into oxaccessoire2article... " />
+            <marker date="1533198796000" expanded="true" signature="23506:23665" ph="select * fro... oxprice2article" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article_accessories_ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1533198796000" expanded="true" signature="4185:4249" ph="select oxacc... oxaccessoire2article" />
-            <marker date="1533198796000" expanded="true" signature="5251:5339" ph="delete from " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -887,148 +1026,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/category.php">
+    <entry file="file://$PROJECT_DIR$/application/models/oxactionlist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" column="47" lean-forward="true" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/category.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/category_list.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/oxi18n.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <marker date="1533198798000" expanded="true" signature="6392:6467" ph="select * fro... ${getViewName($this-&gt;_sCoreTable, -1, -1)}" />
+            <marker date="1533198798000" expanded="true" signature="14684:14847" ph="insert into ${$sLangTable}... " />
+            <marker date="1533198798000" expanded="true" signature="16293:16317" ph="insert into ${$sTable}... " />
+            <marker date="1533198798000" expanded="true" signature="19551:19587" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/oxbasketreservation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533198796000" expanded="true" signature="8321:8417" ph="select oxid oxuserbaskets" />
+            <marker date="1533198796000" expanded="true" signature="8687:8789" ph="select oxart... oxuserbasketitems" />
+            <marker date="1533198796000" expanded="true" signature="9090:9174" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="9201:9275" ph="delete from " />
+            <marker date="1533198796000" expanded="true" signature="9344:9416" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/actions_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2482">
+          <caret line="165" column="27" lean-forward="false" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin/category_main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oe/oepaypal/metadata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/oe/oethemeswitcher/metadata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/content_main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="54" column="53" lean-forward="false" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/article_main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="54" lean-forward="true" selection-start-line="61" selection-start-column="54" selection-end-line="61" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/rvp/vendormetadata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/metadata.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-          <folding>
-            <element signature="e#6#879#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.docker/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.docker/vhost.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/oxmediaurl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-93">
-          <caret line="105" column="53" lean-forward="false" selection-start-line="105" selection-start-column="53" selection-end-line="105" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/alist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article_extend.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+        <state relative-caret-position="544">
+          <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/oxcategory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12767">
-          <caret line="887" column="5" lean-forward="false" selection-start-line="887" selection-start-column="5" selection-end-line="887" selection-end-column="5" />
+        <state relative-caret-position="17">
+          <caret line="146" column="25" lean-forward="false" selection-start-line="146" selection-start-column="20" selection-end-line="146" selection-end-column="25" />
           <folding>
             <marker date="1533198796000" expanded="true" signature="7324:7530" ph="UPDATE oxcat... " />
             <marker date="1533198796000" expanded="true" signature="7645:7854" ph="UPDATE oxcat... " />
@@ -1053,18 +1104,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/oxlistobject.php">
+    <entry file="file://$PROJECT_DIR$/application/models/oxaddress.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-2354">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/actions_groups_ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1533198796000" expanded="true" signature="3414:3496" ph="delete from " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/oxarticle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
-          <caret line="2689" column="5" lean-forward="false" selection-start-line="2689" selection-start-column="5" selection-end-line="2689" selection-end-column="5" />
+        <state relative-caret-position="560">
+          <caret line="3269" column="42" lean-forward="false" selection-start-line="3269" selection-start-column="36" selection-end-line="3269" selection-end-column="42" />
           <folding>
             <marker date="1533198796000" expanded="true" signature="29219:29398" ph="update oxart... " />
             <marker date="1533198796000" expanded="true" signature="36000:36213" ph="select ${{$s... " />
@@ -1124,67 +1185,201 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/oxlistobject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="165" column="26" lean-forward="true" selection-start-line="165" selection-start-column="26" selection-end-line="165" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/models/invoicepdfoxorder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="193" column="4" lean-forward="false" selection-start-line="193" selection-start-column="4" selection-end-line="193" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/oepaypal/models/oepaypalarticletoexpresscheckoutcurrentitem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/metadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="38" column="16" lean-forward="false" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/controllers/admin/invoicepdforder_overview.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="58" column="31" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/invoicepdf/models/invoicepdfblock.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/oe/oepaypal/models/oepaypalipnprocessor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/article_extend.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="291" column="4" lean-forward="false" selection-start-line="291" selection-start-column="4" selection-end-line="291" selection-end-column="92" />
-          <folding>
-            <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#form#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/translations/en/lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4845">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="234">
+          <caret line="300" column="0" lean-forward="false" selection-start-line="300" selection-start-column="0" selection-end-line="351" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/en/help_lang.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/article_extend.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="207">
+          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="232" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/en/cust_lang.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/oxubase.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/en/lang.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="399" column="27" lean-forward="false" selection-start-line="399" selection-start-column="1" selection-end-line="399" selection-end-column="27" />
-          <folding>
-            <marker date="1533198796000" expanded="true" signature="85540:85548" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/tpl/category_main.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="286" column="9" lean-forward="false" selection-start-line="286" selection-start-column="9" selection-end-line="286" selection-end-column="9" />
+        <state relative-caret-position="-8518">
+          <caret line="755" column="20" lean-forward="false" selection-start-line="755" selection-start-column="20" selection-end-line="755" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/blocks/rvpcategory_main.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="49" />
           <folding>
-            <element signature="n#style#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#td#0;n#tr#3;n#!!top" expanded="true" />
+            <marker date="1539786125567" expanded="true" signature="684:746" ph="select * fro... $" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/metadata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="40" column="89" lean-forward="false" selection-start-line="40" selection-start-column="89" selection-end-line="40" selection-end-column="89" />
+          <folding>
+            <marker date="1539762244745" expanded="true" signature="1306:1514" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/en/categoryattachment_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rvp/categoryattachment/views/admin/de/categoryattachment_lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pkg.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding>
+            <marker date="1539786426993" expanded="true" signature="1066:1069" ph="3" />
+            <marker date="1539786426993" expanded="true" signature="1070:1578" ph="services: &lt;2 keys&gt;" />
+            <marker date="1539786426993" expanded="true" signature="1082:1381" ph="app: &lt;6 keys&gt;" />
+            <marker date="1539786426993" expanded="true" signature="1091:1151" ph="build: &lt;2 keys&gt;" />
+            <marker date="1539786426993" expanded="true" signature="1133:1151" ph=".docker/Dockerfile" />
+            <marker date="1539786426993" expanded="true" signature="1163:1173" ph="trial-task" />
+            <marker date="1539786426993" expanded="true" signature="1178:1200" ph="ports: &lt;1 item&gt;" />
+            <marker date="1539786426993" expanded="true" signature="1193:1200" ph="8080:80" />
+            <marker date="1539786426993" expanded="true" signature="1205:1238" ph="volumes: &lt;1 item&gt;" />
+            <marker date="1539786426993" expanded="true" signature="1222:1238" ph=".:/var/www/html/" />
+            <marker date="1539786426993" expanded="true" signature="1243:1263" ph="links: &lt;1 item&gt;" />
+            <marker date="1539786426993" expanded="true" signature="1258:1263" ph="mysql" />
+            <marker date="1539786426993" expanded="true" signature="1268:1381" ph="environment: &lt;4 keys&gt;" />
+            <marker date="1539786426993" expanded="true" signature="1296:1301" ph="mysql" />
+            <marker date="1539786426993" expanded="true" signature="1321:1330" ph="test-shop" />
+            <marker date="1539786426993" expanded="true" signature="1350:1354" ph="test" />
+            <marker date="1539786426993" expanded="true" signature="1374:1381" ph="test123" />
+            <marker date="1539786426993" expanded="true" signature="1384:1578" ph="mysql: &lt;3 keys&gt;" />
+            <marker date="1539786426993" expanded="true" signature="1402:1411" ph="mysql:5.7" />
+            <marker date="1539786426993" expanded="true" signature="1416:1441" ph="ports: &lt;1 item&gt;" />
+            <marker date="1539786426993" expanded="true" signature="1431:1441" ph="13306:3306" />
+            <marker date="1539786426993" expanded="true" signature="1446:1578" ph="environment: &lt;4 keys&gt;" />
+            <marker date="1539786426993" expanded="true" signature="1481:1490" ph="test-shop" />
+            <marker date="1539786426993" expanded="true" signature="1509:1513" ph="test" />
+            <marker date="1539786426993" expanded="true" signature="1536:1543" ph="test123" />
+            <marker date="1539786426993" expanded="true" signature="1571:1578" ph="test123" />
           </folding>
         </state>
       </provider>

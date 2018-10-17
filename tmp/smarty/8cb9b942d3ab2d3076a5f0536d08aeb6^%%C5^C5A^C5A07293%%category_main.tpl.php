@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-10-15 17:39:46
+<?php /* Smarty version 2.6.28, created on 2018-10-17 11:55:05
          compiled from category_main.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'oxmultilangassign', 'category_main.tpl', 1, false),array('modifier', 'oxtruncate', 'category_main.tpl', 114, false),array('modifier', 'oxupper', 'category_main.tpl', 223, false),array('function', 'oxmultilang', 'category_main.tpl', 69, false),array('function', 'oxinputhelp', 'category_main.tpl', 69, false),)), $this); ?>
@@ -386,8 +386,54 @@ unset($_smarty_tpl_vars);
 <tr>
 <td valign="top" class="edittext" align="left" width="55%" style="table-layout:fixed">
 
-    <legend><?php echo smarty_function_oxmultilang(array('ident' => 'ARTICLE_EXTEND_MEDIAURLS'), $this);?>
-</legend>
+    <legend><b><?php echo smarty_function_oxmultilang(array('ident' => 'CATEGORY_EXTEND_MEDIAURL'), $this);?>
+</b></legend>
+    <table cellspacing="0" cellpadding="0" border="0">
+
+        <?php $_from = $this->_tpl_vars['aMediaUrls']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }if (count($_from)):
+    foreach ($_from as $this->_tpl_vars['oMediaUrl']):
+?>
+        <tr>
+            <?php if ($this->_tpl_vars['oddclass'] == 2): ?>
+            <?php $this->assign('oddclass', ""); ?>
+            <?php else: ?>
+            <?php $this->assign('oddclass', '2'); ?>
+            <?php endif; ?>
+            <td class=listitem<?php echo $this->_tpl_vars['oddclass']; ?>
+>
+                &nbsp;<a href="<?php echo $this->_tpl_vars['oMediaUrl']->getLink(); ?>
+" target="_blank">&raquo;&raquo;</a>&nbsp;
+            </td>
+            <td class=listitem<?php echo $this->_tpl_vars['oddclass']; ?>
+>
+                &nbsp;<a href="<?php echo $this->_tpl_vars['oViewConf']->getSelfLink(); ?>
+&cl=article_extend&amp;mediaid=<?php echo $this->_tpl_vars['oMediaUrl']->oxmediaurls__oxid->value; ?>
+&amp;fnc=deletemedia&amp;oxid=<?php echo $this->_tpl_vars['oxid']; ?>
+&amp;editlanguage=<?php echo $this->_tpl_vars['editlanguage']; ?>
+" onClick='return confirm("<?php echo smarty_function_oxmultilang(array('ident' => 'GENERAL_YOUWANTTODELETE'), $this);?>
+")'><img src="<?php echo $this->_tpl_vars['oViewConf']->getImageUrl(); ?>
+/delete_button.gif" border=0></a>&nbsp;
+            </td>
+            <td class="listitem<?php echo $this->_tpl_vars['oddclass']; ?>
+" width=250>
+                <input style="width:100%" class="edittext" type="text" name="aMediaUrls[<?php echo $this->_tpl_vars['oMediaUrl']->oxmediaurls__oxid->value; ?>
+][oxmediaurls__oxdesc]" value="<?php echo $this->_tpl_vars['oMediaUrl']->oxmediaurls__oxdesc->value; ?>
+">
+            </td>
+        </tr>
+        <?php endforeach; endif; unset($_from); ?>
+
+        <?php if ($this->_tpl_vars['aMediaUrls']->count()): ?>
+        <tr>
+            <td colspan="3" align="right">
+                <input class="edittext" type="button" onclick="this.form.fnc.value='updateMedia';this.form.submit();" <?php echo $this->_tpl_vars['readonly']; ?>
+ value="<?php echo smarty_function_oxmultilang(array('ident' => 'ARTICLE_EXTEND_UPDATEMEDIA'), $this);?>
+">
+                <br><br>
+            </td>
+        </tr>
+        <?php endif; ?>
+
         <tr>
             <td colspan="3">
                 <?php echo smarty_function_oxmultilang(array('ident' => 'ARTICLE_EXTEND_DESCRIPTION'), $this);?>
@@ -414,8 +460,8 @@ unset($_smarty_tpl_vars);
 >
             </td>
         </tr>
-</td>
-</tr>
+    </table>
+
 
         <tr>
             <td class="edittext">

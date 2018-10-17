@@ -1,1 +1,0 @@
-a:1:{s:7:"content";a:3:{s:32:"381bf06270bde495a9666f30a6c3796d";s:40:"en/Kiteboarding/Kites/Kite-CORE-GTS.html";s:32:"54d925da9c3b3716f9b0e19409fa19d6";s:44:"en/Kiteboarding/Kites/Kite-NBK-EVO-2010.html";s:32:"efa81c0281406fe1c587af0bb7de4dcf";s:39:"en/Kiteboarding/Kites/Kite-CORE-GT.html";}}

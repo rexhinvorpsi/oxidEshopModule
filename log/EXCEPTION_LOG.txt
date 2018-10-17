@@ -796,3 +796,815 @@ oxConnectionException-oxException (time: 2018-10-15 15:05:35): [0]: EXCEPTION_CO
  Connection Adress --> 
 Connection Error --> tests/var/www/html/Connection refused
 ---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 19:57:14): [0]: Function 'getLanguage' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(72): oxSuperCfg->__call('getLanguage', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(72): categoryattachment_category_main->getLanguage()
+#2 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): categoryattachment_category_main->getMediaUrl('-1')
+#3 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#4 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#5 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#6 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#7 /var/www/html/index.php(26): Oxid::run()
+#8 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#9 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-16 19:57:15): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 22:14:12): [0]: Function 'getLanguage' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(86): oxSuperCfg->__call('getLanguage', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(86): categoryattachment_category_main->getLanguage()
+#2 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): categoryattachment_category_main->getMediaUrl('-1')
+#3 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#4 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#5 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#6 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#7 /var/www/html/index.php(26): Oxid::run()
+#8 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#9 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-16 22:14:12): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 22:17:56): [0]: Function 'getLanguage' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(86): oxSuperCfg->__call('getLanguage', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(86): categoryattachment_category_main->getLanguage()
+#2 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): categoryattachment_category_main->getMediaUrl('-1')
+#3 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#4 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#5 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#6 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#7 /var/www/html/index.php(26): Oxid::run()
+#8 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#9 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-16 22:17:56): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 22:18:12): [0]: Function 'getLanguage' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(86): oxSuperCfg->__call('getLanguage', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(86): categoryattachment_category_main->getLanguage()
+#2 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): categoryattachment_category_main->getMediaUrl('-1')
+#3 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#4 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#5 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#6 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#7 /var/www/html/index.php(26): Oxid::run()
+#8 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#9 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-16 22:18:12): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 22:45:48): [0]: EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND 
+ Stack Trace: #0 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('oxsystemcompone...', 0, Array)
+#1 [internal function]: oxUtilsObject->oxNew('oxSystemCompone...')
+#2 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#3 /var/www/html/core/oxutilsobject.php(178): oxNew('oxSystemCompone...')
+#4 [internal function]: oxUtilsObject->oxNew('categoryextende...')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): oxNew('categoryextende...')
+#7 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#8 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#9 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#13 {main}
+
+ Faulty component --> categoryextended
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 22:45:48): [0]: EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND 
+ Stack Trace: #0 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('oxsystemcompone...', 0, Array)
+#1 [internal function]: oxUtilsObject->oxNew('oxSystemCompone...')
+#2 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#3 /var/www/html/core/oxutilsobject.php(178): oxNew('oxSystemCompone...')
+#4 [internal function]: oxUtilsObject->oxNew('categoryextende...')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): oxNew('categoryextende...')
+#7 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#8 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#9 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#13 {main}
+
+ Faulty component --> categoryextended
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-16 22:45:48): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 22:48:13): [0]: EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND 
+ Stack Trace: #0 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('oxsystemcompone...', 0, Array)
+#1 [internal function]: oxUtilsObject->oxNew('oxSystemCompone...')
+#2 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#3 /var/www/html/core/oxutilsobject.php(178): oxNew('oxSystemCompone...')
+#4 [internal function]: oxUtilsObject->oxNew('categoryextende...')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): oxNew('categoryextende...')
+#7 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#8 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#9 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#13 {main}
+
+ Faulty component --> categoryextended
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 22:48:13): [0]: EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND 
+ Stack Trace: #0 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('oxsystemcompone...', 0, Array)
+#1 [internal function]: oxUtilsObject->oxNew('oxSystemCompone...')
+#2 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#3 /var/www/html/core/oxutilsobject.php(178): oxNew('oxSystemCompone...')
+#4 [internal function]: oxUtilsObject->oxNew('categoryextende...')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): oxNew('categoryextende...')
+#7 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#8 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#9 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#13 {main}
+
+ Faulty component --> categoryextended
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-16 22:48:13): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 23:51:20): [0]: EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND 
+ Stack Trace: #0 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('oxsystemcompone...', 0, Array)
+#1 [internal function]: oxUtilsObject->oxNew('oxSystemCompone...')
+#2 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#3 /var/www/html/core/oxutilsobject.php(178): oxNew('oxSystemCompone...')
+#4 [internal function]: oxUtilsObject->oxNew('categoryExtende...')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): oxNew('categoryExtende...')
+#7 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#8 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#9 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#13 {main}
+
+ Faulty component --> categoryextended
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 23:51:20): [0]: EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND 
+ Stack Trace: #0 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('oxsystemcompone...', 0, Array)
+#1 [internal function]: oxUtilsObject->oxNew('oxSystemCompone...')
+#2 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#3 /var/www/html/core/oxutilsobject.php(178): oxNew('oxSystemCompone...')
+#4 [internal function]: oxUtilsObject->oxNew('categoryExtende...')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): oxNew('categoryExtende...')
+#7 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#8 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#9 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#13 {main}
+
+ Faulty component --> categoryextended
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-16 23:51:20): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 23:52:33): [0]: EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND 
+ Stack Trace: #0 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('oxsystemcompone...', 0, Array)
+#1 [internal function]: oxUtilsObject->oxNew('oxSystemCompone...')
+#2 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#3 /var/www/html/core/oxutilsobject.php(178): oxNew('oxSystemCompone...')
+#4 [internal function]: oxUtilsObject->oxNew('categoryExtende...')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): oxNew('categoryExtende...')
+#7 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#8 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#9 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#13 {main}
+
+ Faulty component --> categoryextended
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 23:52:33): [0]: EXCEPTION_SYSTEMCOMPONENT_CLASSNOTFOUND 
+ Stack Trace: #0 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('oxsystemcompone...', 0, Array)
+#1 [internal function]: oxUtilsObject->oxNew('oxSystemCompone...')
+#2 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#3 /var/www/html/core/oxutilsobject.php(178): oxNew('oxSystemCompone...')
+#4 [internal function]: oxUtilsObject->oxNew('categoryExtende...')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): oxNew('categoryExtende...')
+#7 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#8 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#9 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#10 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#11 /var/www/html/index.php(26): Oxid::run()
+#12 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#13 {main}
+
+ Faulty component --> categoryextended
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-16 23:52:33): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-16 23:58:42): [0]: Function 'getMediaUrl' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): oxSuperCfg->__call('getMediaUrl', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): categoryattachment_category_main->getMediaUrl()
+#2 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#3 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#4 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#5 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#6 /var/www/html/index.php(26): Oxid::run()
+#7 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#8 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-16 23:58:43): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 00:00:25): [0]: Function 'getMediaUrl' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): oxSuperCfg->__call('getMediaUrl', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): categoryattachment_category_main->getMediaUrl()
+#2 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#3 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#4 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#5 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#6 /var/www/html/index.php(26): Oxid::run()
+#7 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#8 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 00:00:25): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 09:39:08): [0]: Function 'construct' does not exist or is not accessible! (categoryextended)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryextended.php(12): oxSuperCfg->__call('construct', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryextended.php(12): oxCategory->construct()
+#2 /var/www/html/core/oxutilsobject.php(213): categoryextended->__construct()
+#3 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('categoryextende...', 0, Array)
+#4 [internal function]: oxUtilsObject->oxNew('oxcategory')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/core/oxlist.php(355): oxNew('oxcategory')
+#7 /var/www/html/application/controllers/admin/oxadminlist.php(779): oxList->getBaseObject()
+#8 /var/www/html/application/controllers/admin/oxadminlist.php(221): oxAdminList->getItemList()
+#9 /var/www/html/application/controllers/admin/category_list.php(76): oxAdminList->render()
+#10 /var/www/html/core/oxshopcontrol.php(482): Category_List->render()
+#11 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(Category_List))
+#12 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_list', NULL, NULL, NULL)
+#13 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#14 /var/www/html/index.php(26): Oxid::run()
+#15 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#16 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 09:39:08): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (Category_List)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): Category_List->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 09:39:09): [0]: Function 'construct' does not exist or is not accessible! (categoryextended)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryextended.php(12): oxSuperCfg->__call('construct', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryextended.php(12): oxCategory->construct()
+#2 /var/www/html/core/oxutilsobject.php(213): categoryextended->__construct()
+#3 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('categoryextende...', 0, Array)
+#4 [internal function]: oxUtilsObject->oxNew('oxcategory')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/application/controllers/admin/category_main.php(45): oxNew('oxcategory')
+#7 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(13): Category_Main->render()
+#8 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#9 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#10 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#11 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#12 /var/www/html/index.php(26): Oxid::run()
+#13 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#14 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 09:39:09): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 09:39:44): [0]: Function 'construct' does not exist or is not accessible! (categoryextended)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryextended.php(12): oxSuperCfg->__call('construct', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryextended.php(12): oxCategory->construct()
+#2 /var/www/html/core/oxutilsobject.php(213): categoryextended->__construct()
+#3 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('categoryextende...', 0, Array)
+#4 [internal function]: oxUtilsObject->oxNew('oxcategory')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/core/oxlist.php(355): oxNew('oxcategory')
+#7 /var/www/html/application/controllers/admin/oxadminlist.php(779): oxList->getBaseObject()
+#8 /var/www/html/application/controllers/admin/oxadminlist.php(221): oxAdminList->getItemList()
+#9 /var/www/html/application/controllers/admin/category_list.php(76): oxAdminList->render()
+#10 /var/www/html/core/oxshopcontrol.php(482): Category_List->render()
+#11 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(Category_List))
+#12 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_list', NULL, NULL, NULL)
+#13 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#14 /var/www/html/index.php(26): Oxid::run()
+#15 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#16 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 09:39:44): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (Category_List)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): Category_List->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 09:39:45): [0]: Function 'construct' does not exist or is not accessible! (categoryextended)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryextended.php(12): oxSuperCfg->__call('construct', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryextended.php(12): oxCategory->construct()
+#2 /var/www/html/core/oxutilsobject.php(213): categoryextended->__construct()
+#3 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('categoryextende...', 0, Array)
+#4 [internal function]: oxUtilsObject->oxNew('oxcategory')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/application/controllers/admin/category_main.php(45): oxNew('oxcategory')
+#7 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(13): Category_Main->render()
+#8 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#9 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#10 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#11 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#12 /var/www/html/index.php(26): Oxid::run()
+#13 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#14 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 09:39:45): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 09:45:35): [0]: Function 'construct' does not exist or is not accessible! (categoryattachment_category)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php(12): oxSuperCfg->__call('construct', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php(12): oxCategory->construct()
+#2 /var/www/html/core/oxutilsobject.php(213): categoryattachment_category->__construct()
+#3 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('categoryattachm...', 0, Array)
+#4 [internal function]: oxUtilsObject->oxNew('oxcategory')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/core/oxlist.php(355): oxNew('oxcategory')
+#7 /var/www/html/application/controllers/admin/oxadminlist.php(779): oxList->getBaseObject()
+#8 /var/www/html/application/controllers/admin/oxadminlist.php(221): oxAdminList->getItemList()
+#9 /var/www/html/application/controllers/admin/category_list.php(76): oxAdminList->render()
+#10 /var/www/html/core/oxshopcontrol.php(482): Category_List->render()
+#11 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(Category_List))
+#12 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_list', NULL, NULL, NULL)
+#13 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#14 /var/www/html/index.php(26): Oxid::run()
+#15 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#16 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 09:45:35): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (Category_List)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): Category_List->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 09:45:36): [0]: Function 'construct' does not exist or is not accessible! (categoryattachment_category)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php(12): oxSuperCfg->__call('construct', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php(12): oxCategory->construct()
+#2 /var/www/html/core/oxutilsobject.php(213): categoryattachment_category->__construct()
+#3 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('categoryattachm...', 0, Array)
+#4 [internal function]: oxUtilsObject->oxNew('oxcategory')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/application/controllers/admin/category_main.php(45): oxNew('oxcategory')
+#7 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(13): Category_Main->render()
+#8 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#9 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#10 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#11 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#12 /var/www/html/index.php(26): Oxid::run()
+#13 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#14 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 09:45:36): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 09:50:35): [0]: Function 'construct' does not exist or is not accessible! (categoryattachment_category)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php(12): oxSuperCfg->__call('construct', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php(12): oxCategory->construct()
+#2 /var/www/html/core/oxutilsobject.php(213): categoryattachment_category->__construct()
+#3 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('categoryattachm...', 0, Array)
+#4 [internal function]: oxUtilsObject->oxNew('oxcategory')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/core/oxlist.php(355): oxNew('oxcategory')
+#7 /var/www/html/application/controllers/admin/oxadminlist.php(779): oxList->getBaseObject()
+#8 /var/www/html/application/controllers/admin/oxadminlist.php(221): oxAdminList->getItemList()
+#9 /var/www/html/application/controllers/admin/category_list.php(76): oxAdminList->render()
+#10 /var/www/html/core/oxshopcontrol.php(482): Category_List->render()
+#11 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(Category_List))
+#12 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_list', NULL, NULL, NULL)
+#13 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#14 /var/www/html/index.php(26): Oxid::run()
+#15 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#16 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 09:50:35): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (Category_List)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): Category_List->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 09:50:36): [0]: Function 'construct' does not exist or is not accessible! (categoryattachment_category)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php(12): oxSuperCfg->__call('construct', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/models/admin/categoryattachment_category.php(12): oxCategory->construct()
+#2 /var/www/html/core/oxutilsobject.php(213): categoryattachment_category->__construct()
+#3 /var/www/html/core/oxutilsobject.php(188): oxUtilsObject->_getObject('categoryattachm...', 0, Array)
+#4 [internal function]: oxUtilsObject->oxNew('oxcategory')
+#5 /var/www/html/core/oxfunctions.php(368): call_user_func_array(Array, Array)
+#6 /var/www/html/application/controllers/admin/category_main.php(45): oxNew('oxcategory')
+#7 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(13): Category_Main->render()
+#8 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#9 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#10 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#11 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#12 /var/www/html/index.php(26): Oxid::run()
+#13 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#14 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 09:50:36): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 09:59:54): [0]: Function 'getLanguage' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(86): oxSuperCfg->__call('getLanguage', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(86): categoryattachment_category_main->getLanguage()
+#2 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): categoryattachment_category_main->getMediaUrl()
+#3 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#4 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#5 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#6 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#7 /var/www/html/index.php(26): Oxid::run()
+#8 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#9 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 09:59:54): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 10:23:58): [0]: Function 'getLanguage' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(85): oxSuperCfg->__call('getLanguage', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(85): categoryattachment_category_main->getLanguage()
+#2 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): categoryattachment_category_main->getMediaUrl()
+#3 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#4 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#5 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#6 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#7 /var/www/html/index.php(26): Oxid::run()
+#8 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#9 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 10:23:58): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 10:24:50): [0]: Function 'getLanguage' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(85): oxSuperCfg->__call('getLanguage', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(85): categoryattachment_category_main->getLanguage()
+#2 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): categoryattachment_category_main->getMediaUrl()
+#3 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#4 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#5 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#6 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#7 /var/www/html/index.php(26): Oxid::run()
+#8 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#9 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 10:24:50): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException-oxException (time: 2018-10-17 10:26:10): [0]: Function 'getLanguage' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(85): oxSuperCfg->__call('getLanguage', Array)
+#1 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(85): categoryattachment_category_main->getLanguage()
+#2 /var/www/html/modules/rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main.php(15): categoryattachment_category_main->getMediaUrl('-1')
+#3 /var/www/html/core/oxshopcontrol.php(482): categoryattachment_category_main->render()
+#4 /var/www/html/core/oxshopcontrol.php(364): oxShopControl->_render(Object(categoryattachment_category_main))
+#5 /var/www/html/core/oxshopcontrol.php(126): oxShopControl->_process('category_main', NULL, NULL, NULL)
+#6 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#7 /var/www/html/index.php(26): Oxid::run()
+#8 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#9 {main}
+
+ Faulty component --> 
+---------------------------------------------
+oxSystemComponentException---!--NOT CAUGHT--!--oxException (time: 2018-10-17 10:26:10): [0]: Function 'getIsOrderStep' does not exist or is not accessible! (categoryattachment_category_main)
+ 
+ Stack Trace: #0 /var/www/html/application/components/oxcmp_categories.php(75): oxSuperCfg->__call('getIsOrderStep', Array)
+#1 /var/www/html/application/components/oxcmp_categories.php(75): categoryattachment_category_main->getIsOrderStep()
+#2 /var/www/html/application/controllers/oxubase.php(645): oxcmp_categories->init()
+#3 /var/www/html/core/oxshopcontrol.php(418): oxUBase->init()
+#4 /var/www/html/core/oxshopcontrol.php(349): oxShopControl->_initializeViewObject('exceptionError', 'displayExceptio...', NULL, NULL)
+#5 /var/www/html/core/oxshopcontrol.php(657): oxShopControl->_process('exceptionError', 'displayExceptio...')
+#6 /var/www/html/core/oxshopcontrol.php(128): oxShopControl->_handleSystemException(Object(oxSystemComponentException))
+#7 /var/www/html/core/oxid.php(40): oxShopControl->start()
+#8 /var/www/html/index.php(26): Oxid::run()
+#9 /var/www/html/admin/index.php(27): require_once('/var/www/html/i...')
+#10 {main}
+
+ Faulty component --> 
+---------------------------------------------

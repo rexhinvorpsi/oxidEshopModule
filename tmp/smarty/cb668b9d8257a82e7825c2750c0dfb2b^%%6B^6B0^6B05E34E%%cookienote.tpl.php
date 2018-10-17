@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.28, created on 2018-10-14 20:48:13
+<?php /* Smarty version 2.6.28, created on 2018-10-17 09:36:19
          compiled from widget/header/cookienote.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'oxscript', 'widget/header/cookienote.tpl', 2, false),array('function', 'oxmultilang', 'widget/header/cookienote.tpl', 8, false),array('function', 'oxgetseourl', 'widget/header/cookienote.tpl', 11, false),array('modifier', 'cat', 'widget/header/cookienote.tpl', 11, false),)), $this); ?>

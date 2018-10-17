@@ -37,6 +37,8 @@ $aModule = array(
     'author'      => 'Rexhin Vorpsi',
     'email'       => 'rexhinvorpsi@yahoo.com',
     'extend'      => array(
+        'category_main' => 'rvp/categoryattachment/extension/controllers/admin/categoryattachment_category_main',
+        'oxcategory' => 'rvp/categoryattachment/models/admin/categoryattachment_category'
     ),
     'files'       => array(
     ),
