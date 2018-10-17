@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Class that extends category_main controller in order to add Media Url functionality
  * @package
@@ -6,15 +7,17 @@
  */
 class categoryattachment_category_main extends categoryattachment_category_main_parent
 {
-    public  $_aMediaUrls = null;
+    public $_aMediaUrls = null;
 
-  public function render(){
+    public function render()
+    {
         $render = parent::render();
         $soxId = $this->getEditObjectId();
         $oCategory = oxNew('oxcategory');
         $this->_aViewData['aMediaUrls'] = $oCategory->getMediaUrl($soxId);
         return $render;
     }
+
 // Extending save funcition found in category_main controller
     public function save()
     {
@@ -40,6 +43,7 @@ class categoryattachment_category_main extends categoryattachment_category_main_
             }
         }
     }
+
     //Extending function to delete media
     public function deletemedia()
     {
@@ -51,6 +55,7 @@ class categoryattachment_category_main extends categoryattachment_category_main_
             $oMediaUrl->delete();
         }
     }
+
 //Save Media Url Function Grabbed from Article Extend
     private function saveMediaUrl($soxId)
     {
